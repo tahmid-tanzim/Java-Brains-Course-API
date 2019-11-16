@@ -11,11 +11,11 @@ public class TopicService {
     @Autowired
     private TopicRepository topicRepository;
 
-    private List<Topic> topics = new ArrayList<>(Arrays.asList(
-            new Topic("spring", "Spring Framework", "Spring Framework Description"),
-            new Topic("java", "Core Java", "Core Java Description"),
-            new Topic("javascript", "React Redux", "React Redux Description")
-    ));
+//    private List<Topic> topics = new ArrayList<>(Arrays.asList(
+//            new Topic("spring", "Spring Framework", "Spring Framework Description"),
+//            new Topic("java", "Core Java", "Core Java Description"),
+//            new Topic("javascript", "React Redux", "React Redux Description")
+//    ));
 
     public List<Topic> getTopics() {
         List<Topic> topics = new ArrayList<>();
